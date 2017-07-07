@@ -12,7 +12,7 @@ _The function of this website is to ask future students a series of questions ab
 
 _To visit active website:_
 * _Open web browser_
-* _Enter the web address "https://paulguevarra.github.io/track-suggestion/"_
+* _Enter the web address "https://paulguevarra.github.io/track-suggester/"_
 * _Complete all fields on the survey form_
 * _Click on Submit button_
 * _Read suggested content_
