@@ -1,9 +1,11 @@
 $(document).ready(function() {
   $("form#blanks").submit(function(event) {
+    var nameInput = $("input#name").val();
     var devType = $("#platform").val();
     var mySide = $("#side").val();
     var myLike = $("#microsoft").val();
     event.preventDefault();
+
 
     if (devType === "game") {
       $("#cnet").show();
@@ -14,7 +16,6 @@ $(document).ready(function() {
       $("#cnet").hide();
       $("#css").hide();
     } else if (devType === "web") {
-
       if (mySide === "front") {
         $("#java").hide();
         $("#cnet").hide();
@@ -34,9 +35,9 @@ $(document).ready(function() {
       } else {
         alert("Complete all fields before submitting");
         }
-
     } else {
       alert("Complete all fields before submitting");
     }
+
   });
 });
