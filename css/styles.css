@@ -9,12 +9,15 @@
 #css {
   display: none;
 }
+
 .epicodus {
   color: red;
 }
+
 body {
   background-color: #98def2;
 }
+
 .well {
   border-style: solid;
   border-color: black;
@@ -23,6 +26,7 @@ body {
   margin-top: 10px;
   background-color: white;
 }
+
 img.logo1 {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -33,4 +37,9 @@ img.logo1 {
 img.sug {
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+p.more {
+  text-align: right;
+  font-size: 12pt;
 }
