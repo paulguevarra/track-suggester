@@ -19,12 +19,8 @@ _To visit active website:_
 
 _To visit repository:_
 * _Open web browser_
-* _Enter the web address "#"_
+* _Enter the web address "https://github.com/paulguevarra/track-suggester"_
 * _Browse through content_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
 
 ## Support and contact details
 
