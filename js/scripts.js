@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("form#blanks").submit(function(event) {
-    var devType = ("input:radio[name=platform]:checked").val();
+    var devType = $("#platform").val();
     event.preventDefault();
 
     if (devType === "game") {
