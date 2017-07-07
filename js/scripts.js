@@ -12,9 +12,7 @@ $(document).ready(function() {
       $("#cnet").hide();
       $("#css").hide();
     } else {
-      $("#css").show();
-      $("#cnet").hide();
-      $("#java").hide();
+      alert("Complete all fields before submitting");
     }
   });
 });
