@@ -8,6 +8,63 @@
     <title>Track Suggester</title>
   </head>
   <body>
+    <div class="container">
+      <h2>Please answer the following questions:</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
 
+          <div class="form-group">
+            <label for="email">Your email</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label>What platform are you interested in working on?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="platform" value="game" checked>
+                Game Development
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="platform" value="mobile">
+                Mobile Development
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="platform" value="web">
+                Web Development
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="side">Which side do you want to work on?</label>
+            <select class="form-control" id="beverage">
+              <option>Choose one</option>
+              <option>Front End / Client Side</option>
+              <option>Back End / Server Side</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="microsoft">How do you feel about Microsoft?</label>
+            <select class="form-control" id="beverage">
+              <option>Choose one</option>
+              <option>I love it!</option>
+              <option>I can work with it.</option>
+              <option>It is horrible.</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn">Submit Survey</button>
+        </form>
+    </div>
   </body>
 </html>
