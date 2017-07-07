@@ -12,3 +12,12 @@
 .epicodus {
   color: red;
 }
+body {
+  background-color: #98def2;
+}
+.well {
+  border-style: solid;
+  border-color: black;
+  margin-right: 10px;
+  margin-top: 10px
+}
