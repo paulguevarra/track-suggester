@@ -3,7 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Track Suggester</title>
   </head>
@@ -11,8 +11,8 @@
     <div class="container">
 <!--Survey Form-->
       <h2>Please answer the following questions:</h1>
-      <div id="blanks">
-        <form>
+      <div>
+        <form id="blanks">
           <div class="form-group">
             <label for="name">Your Name</label>
             <input id="name" class="form-control" type="text">
@@ -47,7 +47,7 @@
 
           <div class="form-group">
             <label for="side">Which side do you want to work on?</label>
-            <select class="form-control" id="beverage">
+            <select class="form-control" id="side">
               <option>Choose one</option>
               <option>Front End / Client Side</option>
               <option>Back End / Server Side</option>
@@ -56,7 +56,7 @@
 
           <div class="form-group">
             <label for="microsoft">How do you feel about Microsoft?</label>
-            <select class="form-control" id="beverage">
+            <select class="form-control" id="microsoft">
               <option>Choose one</option>
               <option>I love it!</option>
               <option>I can work with it.</option>
